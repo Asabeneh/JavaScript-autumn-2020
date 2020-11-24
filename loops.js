@@ -221,3 +221,30 @@ function reverseArray(arr) {
 }
 
 console.log(reverseArray(countries))
+
+// function declaration
+function addTwoNumbers(a, b) {
+  return a + b
+}
+
+// function expression
+const addTwoNumbers = function (a, b) {
+  return a + b
+}
+
+// Arrow function
+const addTwoNumbers = (a, b) => {
+  return a + b
+}
+
+// Arrow function, returning explicitly
+const addTwoNumbers = (a, b) => a + b
+
+// Write a function name makeSquare which turn a number to its square
+
+const ages = [22, 25, 28, 30, 35, 40, 19, 38, 24, 32]
+// Find the average  age of students
+
+// Use the countries data and find countries containing the world land
+
+// How many countries are there which starts with 'F'

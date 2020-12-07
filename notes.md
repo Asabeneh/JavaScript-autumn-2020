@@ -8,4 +8,7 @@
 - Function
 - Objects
 - Higher Order Function
-- Functional Programmming
+- Functional Programmming -> map - filter, reduce, some, every, find, findIndex
+  
+
+DOM(DOCUMENT OBJECT MODEL)

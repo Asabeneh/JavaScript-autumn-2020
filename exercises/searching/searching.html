@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Background</title>
+    <style>
+      .wrapper {
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .wrapper > div {
+        width: 400px;
+      }
+
+      img {
+        width: 50%;
+      }
+      input {
+        width: 50%;
+        padding: 15px;
+        margin: 30px auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>World Countries Data</h3>
+    <input
+      type="text"
+      class="search"
+      placeholder="Seach by country name, capital or languages"
+    />
+    <div class="wrapper"></div>
+
+    <script src="./countries-data.js"></script>
+    <script src="./searching.js"></script>
+  </body>
+</html>

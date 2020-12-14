@@ -12,3 +12,11 @@
   
 
 DOM(DOCUMENT OBJECT MODEL)
+
+// Background color
+// Input
+// Country search
+
+// how to manipulate the dom - > getting DOM elemnts
+// creating dom elements
+// adding some attributes

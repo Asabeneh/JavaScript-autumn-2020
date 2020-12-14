@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Background</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrapper {
+        font-size: 60px;
+      }
+
+      button {
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 15px auto;
+      }
+      input {
+        padding: 15px;
+      }
+      img {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Where do you like to go after the Corona?</h1>
+    <div class="wrapper"></div>
+    <button class="find-country">Find a country</button>
+
+    <script src="./countries-data.js"></script>
+    <script src="./countries-exercise.js"></script>
+  </body>
+</html>

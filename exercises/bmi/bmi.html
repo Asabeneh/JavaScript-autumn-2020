@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Body Background</title>
+    <style>
+      body {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .wrapper {
+        font-size: 60px;
+      }
+
+      button {
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+        margin: 15px auto;
+      }
+      input {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>BMI calculator</h1>
+      <input class="mass" type="text" placeholder="Mass in Kg" />
+      <input class="height" type="text" placeholder="Height in Meter" />
+      <button class="calculate">Calculate</button>
+    </div>
+
+    <script src="./bmi.js"></script>
+  </body>
+</html>

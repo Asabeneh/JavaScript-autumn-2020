@@ -1,0 +1,31 @@
+{
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "conditionals.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asabeneh/MJ-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asabeneh/MJ-2020/issues"
+  },
+  "homepage": "https://github.com/Asabeneh/MJ-2020#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.10",
+    "@storybook/addon-essentials": "^6.1.10",
+    "@storybook/addon-links": "^6.1.10",
+    "@storybook/react": "^6.1.10",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {}
+}
